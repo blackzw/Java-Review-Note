@@ -23,32 +23,36 @@
 
 **常见异常信息总结表**：
 
+
 |异常类型|含义|
 |:-|:-|
-|**ArithmeticException**	|算术异常|
-|**ArrayIndexOutOfBoundsException**	|数组下标越界异常|
-|**ArrayStoreException**	|数组元素类型不兼容eg:为整型数组赋浮点型的数|
-|**ClassCastException**	|类型强制转换异常(精度丢失)|
-|**ClassNotFoundException**	|找不到对应类异常|
-|**CloneNotSupportedException**	|调用clone()方法,但没有实现Cloneable接口(ps:数组默认实现该接口)|
-|**EOFException**	|文件已结束异常|
-|**FileNotFoundException**	|找不到对应文件异常|
-|**IllegalAccessException**	|否问某个类被拒绝时的异常(eg:在别的类中访问private修饰的类)|
-|**IndexOutOfBoundsException**	|下标索引越界异常(eg:数组int a[5],访问a[5]);就会触发该异常,因为下标从0开始|
-|**InstantiationException**	|使用newInstance()方法创建抽象类或借口实例抛出的异常|
-|**IOException**	|输入输出异常|
-|**NullPointerException**	|空指针异常,这个是比较常见的,eg:对象没有实例化直接调用属性或者方法|
-|**NumberFormatException**	|数字格式转换异常,eg:"1+2"这个是字符串,转化为数字就报错了|
-|**NoSuchFieldException**	|字段未找到异常|
-|**NoSuchMethodException**	|方法为找到异常|
-|**NoSuchElementException**	|元素未找到异常(eg:调用StringTokenizer的nextToken()方法可以出现)|
-|**SecurityException**	|安全异常问题,可能需要修改权限|
-|**SQLException**	|数据库操作异常|
-|**StringIndexOutOfBoundsException**|	字符串索引越界异常|
-|**MalformedURLException**|	URL配置异常(可能是URL协议,格式,或者路径错误;jar包问题,去掉gnujaxp.jar包引用即可)|
-|**UnknowHostException**|	域名解析出错异常|
-|**IllegArgumentException**|	向方法传递了一个不合法或者不合理的参数|
-|**IllegalStateException**|	违法的状态异常,调用了某个不处于合法调用状态的方法(eg:调用已经销毁的方法)|
+|**ArithmeticException**|算术异常|
+|**ArrayIndexOutOfBoundsException**|数组下标越界异常|
+|**ArrayStoreException**|数组元素类型不兼容eg:为整型数组赋浮点型的数|
+|**ClassCastException**|类型强制转换异常(精度丢失)|
+|**ClassNotFoundException**|找不到对应类异常|
+|**CloneNotSupportedException**|调用clone()方法,但没有实现Cloneable接口(ps:数组默认实现该接口)|
+|**EOFException**|文件已结束异常|
+|**FileNotFoundException**|找不到对应文件异常|
+|**IllegalAccessException**|否问某个类被拒绝时的异常(eg:在别的类中访问private修饰的类)|
+|**IndexOutOfBoundsException**|下标索引越界异常(eg:数组int a[5],访问a[5]);就会触发该异常,因为下标从0开始|
+|**InstantiationException**|使用newInstance()方法创建抽象类或借口实例抛出的异常|
+|**IOException**|输入输出异常|
+|**NullPointerException**空指针异常,这个是比较常见的,eg:对象没有实例化直接调用属性或者方法|
+|**NumberFormatException**|数字格式转换异常,eg:"1+2"这个是字符串,转化为数字就报错了|
+|**NoSuchFieldException**|字段未找到异常|
+|**NoSuchMethodException**|方法为找到异常|
+|**NoSuchElementException**|元素未找到异常(eg:调用StringTokenizer的nextToken()方法可以出现)|
+|**SecurityException**|安全异常问题,可能需要修改权限|
+|**SQLException**|数据库操作异常|
+|**StringIndexOutOfBoundsException**|字符串索引越界异常|
+|**MalformedURLException**|URL配置异常(可能是URL协议,格式,或者路径错误;jar包问题,去掉gnujaxp.jar包引用即可)|
+|**UnknowHostException**|域名解析出错异常|
+|**IllegArgumentException**|向方法传递了一个不合法或者不合理的参数|
+|**IllegalStateException**|违法的状态异常,调用了某个不处于合法调用状态的方法(eg:调用已经销毁的方法)|
+
+
+
 
 **检验异常与非检验异常**：
 > 
